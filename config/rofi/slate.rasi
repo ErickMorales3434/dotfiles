@@ -1,0 +1,83 @@
+configuration {
+        show-icons: true;
+        disable-history:        true;
+        lines: 8;
+        margin: 0;
+        columns: 1;
+        font: "Hack 10";
+        bw: 0;
+        eh: 1;
+        auto-select: false;
+        line-margin: 1;
+        separator-style: "solid";
+        hide-scrollbar: true;
+	display-run: "";
+	display-drun: "";
+	display-window: "";
+
+}
+
+
+* {
+  background-color: #000000;
+  text-color: #FFFFFF;
+  spacing: 2;
+  text-size: 40px;
+  
+}
+
+window{
+ location:center;
+    width: 500px;
+    x-offset: 0;
+    y-offset: 0;
+    background-color: #000000;
+    border: 3;
+    border-color: #fff;
+    padding: 8;
+
+}
+
+inputbar {
+  border: 0 0 1px 0;
+  children: [prompt,textbox-prompt-colon,entry];
+}
+
+prompt {
+  width: 300px;
+  border: 0 1px 0 0;
+  text-color: #ffffff;
+}
+
+textbox-prompt-colon {
+    expand: false;
+    str: " Search:  ";
+    text-size: 500px;
+    padding: 0px 1px 0px 0px;
+    margin: 0px 0em 0px 0em;
+    text-color: #FF0000;
+}
+
+entry {
+  text-size: 15px;
+}
+
+listview {
+  cycle: true;
+  margin: 0 0 -1px 0;
+  scrollbar: false;
+}
+
+
+element {
+  border: 0 0 1px 0;
+  padding: 2px;
+}
+element-icon {
+	size: 14px;
+	border: 0;
+}
+
+element selected {
+  background-color: #1C1C1C;
+}

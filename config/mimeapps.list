@@ -1,0 +1,8 @@
+[Default Applications]
+x-scheme-handler/tg=userapp-Telegram Desktop-G0E2Z0.desktop
+
+[Added Associations]
+x-scheme-handler/tg=userapp-Telegram Desktop-G0E2Z0.desktop;
+x-scheme-handler/sms=org.gnome.Shell.Extensions.GSConnect.desktop;
+x-scheme-handler/tel=org.gnome.Shell.Extensions.GSConnect.desktop;
+application/pdf=firefox.desktop;
